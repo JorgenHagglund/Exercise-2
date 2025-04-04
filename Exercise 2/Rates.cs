@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Exercise_2
 {
+    /// <summary>
+    /// This enum contains the rates for the tickets.
+    /// </summary>
     internal enum Rates
     {
         Freebies = 0,
