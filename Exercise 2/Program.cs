@@ -43,7 +43,7 @@ namespace Exercise_2
             // I could have used an if-then-else statement, but switch-case is 
             // highly powerful in C#, so why not use it? (Actually, an if-then-else 
             // is probably faster, but speed isn't an issue here.)
-            switch (GetUInt("Vad är din ålder: ")) {
+            switch (GetUInt("Vad är din ålder")) {
                 case < 5:
                 case > 100:
                     return ShowAndTell(Rates.Freebies);
@@ -96,7 +96,7 @@ namespace Exercise_2
         private static uint PartyCalculation()
         {
             uint sum = 0;
-            uint partySize = GetUInt("Hur stort sällskap: ");
+            uint partySize = GetUInt("Hur stort sällskap");
 
             // Loop as many times as there are people in the group,
             // decreasing the counter each time.
